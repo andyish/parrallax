@@ -1,0 +1,28 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: rgb(29, 31, 32);
+	z-index: 0;
+}
+
+.cloud {
+	position: fixed;
+	background-image: url('http://images.clipartpanda.com/clouds-background-png-cloud-edition.png');
+	background-repeat: no-repeat;
+	background-size: 100px;
+	height: 100px;
+	width: 100px;
+	top: 0px;
+	left: 150px;
+	z-index: 5;
+}
+
+.content {
+	background-color: #F0F7FF;
+	width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 16px;
+  	z-index: 10;
+  	position: relative;
+}
