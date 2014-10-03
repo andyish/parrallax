@@ -1,15 +1,62 @@
 body {
 	padding: 0;
 	margin: 0;
-	background-color: rgb(29, 31, 32);
+	background-color: #D0F4F7;
 	z-index: 0;
 }
 
-.cloud {
+.background  div {
 	position: fixed;
-	background-image: url('http://images.clipartpanda.com/clouds-background-png-cloud-edition.png');
 	background-repeat: no-repeat;
-	background-size: 100px;
+	background-size: 3000px 650px;
+	height: 650px;
+	width: 3000px;
+	left: 0px;
+}
+
+.layer {
+
+}
+
+.layer--1 { 
+	background-image: url('images/1.png'); 
+	z-index: 1;
+}
+.layer--2 { 
+	background-image: url('images/2.png');
+	z-index: 2; 
+}
+.layer--3 { 
+	background-image: url('images/3.png'); 
+	z-index: 3;
+}
+.layer--4 { 
+	background-image: url('images/4.png');
+	z-index: 4; 
+}
+.layer--5 { 
+	background-image: url('images/5.png'); 
+	z-index: 5;
+}
+.layer--6 { 
+	background-image: url('images/6.png'); 
+	z-index: 6;
+}
+.layer--7 { 
+	background-image: url('images/7.png'); 
+	z-index: 7;
+}
+.layer--8 { 
+	background-image: url('images/8.png');
+	z-index: 8; 
+}
+.layer--9 { 
+	background-image: url('images/9.png'); 
+	z-index: 9;
+}
+
+.cloud {
+	background-image: url('http://images.clipartpanda.com/clouds-background-png-cloud-edition.png');
 	height: 100px;
 	width: 100px;
 	top: 0px;
